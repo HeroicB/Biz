@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  /* Lay out children along containers main axis (horizontal default) */
+  display: flex;
+  /* Because nav is horizontal, pushes children equal distance from each other (left and right end for two children here) */
+  justify-content: space-between;
+  /* Align children vertically within navbar */
+  align-items: center;
+
+  padding: 1rem 2rem;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: inherit;
+}
