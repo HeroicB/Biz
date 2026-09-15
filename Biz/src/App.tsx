@@ -1,14 +1,11 @@
 import Navbar from './components/Navbar/Navbar'
+import Home from './pages/Home/Home'
 
 function App() {
   return (
     <>
       <Navbar />
-
-      <main>
-        <h1>Restaurant Website</h1>
-        <p>Our restaurant website is running.</p>
-      </main>
+      <Home />
     </>
   )
 }
